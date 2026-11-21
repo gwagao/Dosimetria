@@ -1,0 +1,26 @@
+name: dosimetro
+description: Dosímetro de ruido para Android (dosis, TWA, Leq, Lmax).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  noise_meter: ^5.0.2
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.3
+  share_plus: ^9.0.0
+  pdf: ^3.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
